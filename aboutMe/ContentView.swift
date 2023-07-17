@@ -35,6 +35,7 @@ struct ContentView: View {
             if showBio {
                 Text("I am going to be a sophomore next year at TCAH. My favorite color is pink and I'm obsessed with bunnies! I love love love mysteries (espeically murder mysteries). My favorite author is Holly Jackson.")
                     .fontWeight(.light)
+                    .foregroundColor(Color.purple)
                     .padding(.horizontal)
                 Image("masjid")
                     .resizable(resizingMode: .stretch)
